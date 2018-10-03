@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LibraryExample</string>
+    <string name="main">Principal</string>
+    <string name="about">Sobre nosotros</string>
+    <string name="openDrawer">Abierto</string>
+    <string name="closeDrawer">Cerrado</string>
+</resources>
