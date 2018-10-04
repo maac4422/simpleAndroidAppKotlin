@@ -8,4 +8,21 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+    </style>
+
+    <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#F5F5F5</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>

@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         {
             navigateToFragment(EventsFragment(), "Noticias")
         }else if (id == R.id.nav_about){
-            navigateToFragment(AboutFragment(), "Acerca de")
+            navigateToFragment(AboutFragment(), "Principal")
         }
         mDrawerLayout.closeDrawers()
         return true
